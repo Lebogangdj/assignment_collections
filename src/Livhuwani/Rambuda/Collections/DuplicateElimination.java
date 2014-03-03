@@ -8,7 +8,7 @@ import java.util.Set;
 import javax.swing.JOptionPane;
 
 /* File: DuplicateElimination.java
- * This file will override the methods to be tested
+ * This class demostrate the use of Sets and collections to eliminate duplicates
  * Author: Livhuwani Lucky Rambuda (208224262)
  * Date created: 03 March 2014
  * Email : Rambudalucky.saho@gmail.com
@@ -19,12 +19,12 @@ public class DuplicateElimination
 {
     public static void main(String[] args) 
     {
-        String[] Fnames = new String[6]; //Where Fnames represents first names
+        String[] Fnames = new String[10]; //Where Fnames represents first names
        
         for(int i = 0; i < Fnames.length; i++)
         {
             //Recieve input from a GUI using JOptionPane
-            Fnames[i] = JOptionPane.showInputDialog(null,"Please Enter 3 sets of repeating First Names");
+            Fnames[i] = JOptionPane.showInputDialog(null,"Please Enter 5 sets of repeating First Names");
         }
         
         //Put that array into a list
